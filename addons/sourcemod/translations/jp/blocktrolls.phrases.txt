@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"    "[{green}!{default}]"
+		"jp"    "[{green}!{default}]"
+	}
+	"VotingNotEnabled"
+	{
+		"en"	"Voting is not enabled until {olive}40s{default} into the round."
+		"jp"	"ラウンド開始から {olive}40秒{default} 経過するまで投票は無効です。"
+	}
+	"NotConsoleVote"
+	{
+		"en"	"[!] You must be ingame to vote."
+		"jp"	"[!] 投票するにはゲーム内にいる必要があります。"
+	}
+	"NotSpectatorVote"
+	{
+		"en"	"{olive}Spectator{default} can't vote."
+		"jp"	"{olive}観戦者{default} は投票できません。"
+	}
+}

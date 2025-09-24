@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"<{olive}Horde{default}>"
+		"jp"		"<{olive}ホード{default}>"
+	}
+	"NoCommonRemaining"
+	{
+		"en"		"{red}No {default}common remaining!"
+		"jp"		"{red}コモン{default} は残っていません！"
+	}
+	"CommonRemaining"
+	{
+		"en"		"{red}%i {default}common remaining.."
+		"jp"		"{red}%i{default} のコモンが残っています.."
+	}
+	"FiniteEventStarted"
+	{
+		"en"		"A {blue}finite event{default} of {olive}%i{default} commons has started! Rush or wait it out, the choice is yours!"
+		"jp"		"{olive}%i{default} のコモンによる {blue}有限イベント{default} が開始されました！突撃するか待つか、選択はあなた次第です！"
+	}
+}

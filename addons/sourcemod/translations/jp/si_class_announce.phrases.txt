@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"SI"
+	{
+		"en"		"SI: "
+		"jp"		"特殊感染: "
+	}
+	"SpecialInfected"
+	{
+		"en"		"Special Infected: "
+		"jp"		"特殊感染: "
+	}
+}

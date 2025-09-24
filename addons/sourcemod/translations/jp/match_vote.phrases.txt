@@ -1,0 +1,103 @@
+"Phrases"
+{
+    "Tag"
+    {
+        "en"    "[{olive}!{default}]"
+        "jp"    "[{olive}!{default}]"
+    }
+    "Disabled"
+    {
+        "en"    "Plugin is {red}Disabled{default}"
+        "jp"    "プラグインは {red}無効{default} です"
+    }
+    "NoConsole"
+    {
+        "en"    "This command can't be used from console."
+        "jp"    "このコマンドはコンソールから使用できません。"
+    }
+    "ConfoglNotAvailable"
+    {
+        "en"    "Confogl is {red}not available{default}."
+        "jp"    "Confoglは {red}利用できません{default}。"
+    }
+    "CedaGame"
+    {
+        "en"    "It is not allowed to run this command in a {red}cedapug match{default}"
+        "jp"    "{red}cedapugマッチ{default} ではこのコマンドの実行は許可されていません"
+    }
+    "Title_Match"
+    {
+        "en"    "Select match mode:"
+        "jp"    "マッチモードを選択:"
+    }
+    "Title_Config"
+    {
+        "en"    "Select type %s:"
+        "jp"    "%sタイプを選択:"
+    }
+    "ConfigNotFound"
+    {
+        "en"    "No configs for such mode were found."
+        "jp"    "そのモードの設定が見つかりませんでした。"
+    }
+    "NoSpec"
+    {
+        "en"    "Voting cannot be initiated by spectators."
+        "jp"    "観戦者は投票を開始できません。"
+    }
+    "MatchLoaded"
+    {
+        "en"    "Matchmode already loaded!"
+        "jp"    "マッチモードは既に読み込まれています！"
+    }
+    "NotEnoughPlayers"
+    {
+        "en"    "Vote cannot be started. {red}Not enough players{default} ({red}%d{default}/{green}%d{default})."
+        "jp"    "投票を開始できません。{red}プレイヤーが不足{default} しています ({red}%d{default}/{green}%d{default})。"
+    }
+    "Title_LoadConfig"
+    {
+        "en"    "Load confogl '%s' config?"
+        "jp"    "confogl '%s' 設定を読み込みますか？"
+    }
+    "VoteInProgress"
+    {
+        "en"    "{red}Vote in progress{default}, please wait {green}%d{default} seconds."
+        "jp"    "{red}投票進行中{default}、{green}%d{default} 秒お待ちください。"
+    }
+    "VotePass_Loading"
+    {
+        "en"    "Matchmode loading..."
+        "jp"    "マッチモード読み込み中..."
+    }
+    "MatchNotLoaded"
+    {
+        "en"    "{red}No matchmode{default} loaded."
+        "jp"    "{red}マッチモード{default} が読み込まれていません。"
+    }
+    "PlayersConnecting"
+    {
+        "en"    "Vote cannot be started. Players are connecting."
+        "jp"    "投票を開始できません。プレイヤーが接続中です。"
+    }
+    "Title_OffConfogl"
+    {
+        "en"    "Turn off Confogl?"
+        "jp"    "Confoglを無効にしますか？"
+    }
+    "VotePass_Unloading"
+    {
+        "en"    "Confogl unloading..."
+        "jp"    "Confoglアンロード中..."
+    }
+    "Title_ChangeConfogl"
+    {
+        "en"    "Change confogl config to '%s'?"
+        "jp"    "confogl設定を '%s' に変更しますか？"
+    }
+    "VotePass_Changed"
+    {
+        "en"    "Matchmode Changed..."
+        "jp"    "マッチモード変更中..."
+    }
+}

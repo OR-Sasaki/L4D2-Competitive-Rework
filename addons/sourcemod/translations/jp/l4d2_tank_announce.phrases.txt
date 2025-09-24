@@ -1,0 +1,18 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"	"{red}[{default}!{red}]"
+		"jp"	"{red}[{default}!{red}]"
+	}
+	"Spawned"
+	{
+		"en"	"{olive}Tank {default}({red}Control: %s{default}) has spawned!"
+		"jp"	"{olive}タンク {default}({red}コントロール: %s{default}) がスポーンしました！"
+	}
+	"Spawned2"
+	{
+		"en"	"{olive}Tank {default}({red}Control: %N{default}) has spawned!"
+		"jp"	"{olive}タンク {default}({red}コントロール: %N{default}) がスポーンしました！"
+	}
+}

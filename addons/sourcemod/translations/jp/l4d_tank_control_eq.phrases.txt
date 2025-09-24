@@ -1,0 +1,56 @@
+"Phrases"
+{
+	"TagRage"
+	{
+		"en"		"{red}<{default}Tank Rage{red}>"
+		"jp"		"{red}<{default}タンクラージ{red}>"
+	}
+	"Refilled"
+	{
+		"en"		"{default}({green}%N{default}'s) {olive}Rage Meter {red}Refilled"
+		"jp"		"{default}({green}%N{default}の) {olive}ラージメーター {red}補充完了"
+	}
+	"RefilledBot"
+	{
+		"en"		"{olive}Rage Meter {red}Refilled"
+		"jp"		"{olive}ラージメーター {red}補充完了"
+	}
+
+    "TagSelection"
+	{
+		"en"		"{red}<{default}Tank Selection{red}>"
+		"jp"		"{red}<{default}タンク選択{red}>"
+	}
+    "YouBecomeTank"
+	{
+		"en"		"{green}You {default}will become the {red}Tank{default}!"
+		"jp"		"{green}あなた {default}が {red}タンク{default} になります！"
+	}
+   "BecomeTank"
+	{
+		"en"		"{olive}%N {default}will become the {red}Tank!"
+		"jp"		"{olive}%N {default}が {red}タンク{default} になります！"
+	}
+
+    "TagControl"
+	{
+		"en"		"{green}[{olive}Tank Control{green}]"
+		"jp"		"{green}[{olive}タンクコントロール{green}]"
+	}
+   "InvalidTarget"
+	{
+		"en"		"{default}Invalid Target. Unable to give tank"
+		"jp"		"{default}無効なターゲットです。タンクを与えることができません"
+	}
+   "NoInfected"
+	{
+		"en"		"{olive}%N {default}is not on the infected team. Unable to give tank"
+		"jp"		"{olive}%N {default}は感染チームにいません。タンクを与えることができません"
+	}
+
+    "HintText"
+	{
+		"en"		"Rage Meter Refilled"
+		"jp"		"ラージメーター補充完了"
+	}
+}

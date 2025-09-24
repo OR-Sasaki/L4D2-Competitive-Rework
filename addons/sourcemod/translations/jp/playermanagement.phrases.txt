@@ -1,0 +1,48 @@
+"Phrases"
+{
+    "Tag"
+    {
+        "en"    "[{olive}!{default}]"
+        "jp"    "[{olive}!{default}]"
+    }
+    "Usage"
+    {
+        "en"    "{blue}Usage{default}"
+        "jp"    "{blue}使用方法{default}"
+    }
+    "NoSnoop"
+    {
+        "en"    "You Should Not {red}Snoop{default} on The Tank!"
+        "jp"    "タンクを {red}盗み見{default} してはいけません！"
+    }
+    "BecomeSpectator"
+    {
+        "en"    "{teamcolor}%N{default} has become a spectator!"
+        "jp"    "{teamcolor}%N{default} が観戦者になりました！"
+    }
+    "WhileCapped"
+    {
+        "en"    "{red}No spectating{default} while capped!"
+        "jp"    "キャップ中は {red}観戦禁止{default} です！"
+    }
+    "FixBot"
+    {
+        "en"    "{teamcolor}%N{default} is attempting to fix bot counts"
+        "jp"    "{teamcolor}%N{default} がボット数の修正を試行中"
+    }
+    "FixBotConsole"
+    {
+        "en"    "Console is attempting to {red}fix bot counts{default}"
+        "jp"    "コンソールが {red}ボット数の修正{default} を試行中"
+    }
+    "ValidTeams"
+    {
+        "en"    "Valid teams: %d = Spectators, %d = Survivors, %d = Infected"
+        "jp"    "有効なチーム: %d = 観戦者, %d = サバイバー, %d = 感染"
+    }
+    "CouldNotSwitched"
+    {
+        "en"    "{teamcolor}%N{default} could not be switched because the target team was full or has no bot to take over."
+        "jp"    "対象チームが満員または引き継ぐボットがないため、{teamcolor}%N{default} を切り替えできませんでした。"
+    }
+}

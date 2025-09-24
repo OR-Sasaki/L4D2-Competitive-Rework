@@ -1,0 +1,34 @@
+"Phrases"
+{
+    "Unpausing"
+    {
+        "en"        "{blue}[{default}AutoPause{blue}] {default}All {green}crashed {default}players have reconnected.. {blue}Unpausing{default}!"
+        "jp"        "{blue}[{default}自動一時停止{blue}] {default}すべての {green}クラッシュした{default}プレイヤーが再接続されました.. {blue}再開中{default}！"
+    }
+
+    "Waiting"
+    {
+        "#format"   "{1:i},{2:t}"   // 1: remainingCrashers 2: remainingCrashers > 1 ? "players" : "player"
+        "en"        "{blue}[{default}AutoPause{blue}] {default}Waiting for {olive}{1} {default}more {green}crashed {default}{2} before automatic {blue}Unpause{default}!"
+        "jp"        "{blue}[{default}自動一時停止{blue}] {default}自動 {blue}再開{default} まで {olive}{1}{default} 人の {green}クラッシュした{default} {2} を待機中！"
+    }
+
+    "Crashed"
+    {
+        "#format"   "{1:N}"         // 1: client
+        "en"        "{blue}[{default}AutoPause{blue}] {olive}{1} {default}crashed."
+        "jp"        "{blue}[{default}自動一時停止{blue}] {olive}{1} {default}がクラッシュしました。"
+    }
+
+    "players"
+    {
+        "en"        "players"
+        "jp"        "プレイヤー"
+    }
+
+    "player"
+    {
+        "en"        "player"
+        "jp"        "プレイヤー"
+    }
+}

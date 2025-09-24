@@ -1,0 +1,54 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"    	"{blue}[{default}Slots{blue}]{default}"
+		"jp"    	"{blue}[{default}スロット{blue}]{default}"
+	}
+	"NotConsoleVote"
+	{
+		"en"		"[Slots] You must be ingame."
+		"jp"		"[スロット] ゲーム内にいる必要があります。"
+	}
+	"LimitSlotsAbove"
+	{
+		"en"		"You can't limit slots above {olive}%i{default} on this Server."
+		"jp"		"このサーバーでは {olive}%i{default} 以上にスロットを制限できません。"
+	}
+	"LimitedSlotsTo"
+	{
+		"#format"   "{1:s},{2:i}" // 1:sName 2:Int
+		"en"		"{olive}{1}{default} has limited Slots to {blue}{2}{default}"
+		"jp"		"{olive}{1}{default} がスロットを {blue}{2}{default} に制限しました"
+	}
+	"RequiredPlayers"
+	{
+		"en"		"You can't limit Slots lower than required Players."
+		"jp"		"スロットを必要プレイヤー数より低く制限することはできません。"
+	}
+	"SlotsUsage"
+	{
+		"en"		"Usage: {olive}!slots{default} <{olive}number{default}> {blue}|{default} Example: {olive}!slots 8{default}"
+		"jp"		"使用方法: {olive}!slots{default} <{olive}数値{default}> {blue}|{default} 例: {olive}!slots 8{default}"
+	}
+	"Spectators"
+	{
+		"en"		"Voting isn't allowed for spectators."
+		"jp"		"観戦者の投票は許可されていません。"
+	}
+	"LimitSlots"
+	{
+		"en"		"Limit Slots to '%s'?"
+		"jp"		"スロットを '%s' に制限しますか？"
+	}
+	"CannotBeStarted"
+	{
+		"en"		"Vote cannot be started now."
+		"jp"		"現在投票を開始できません。"
+	}
+	"LimitingSlots"
+	{
+		"en"		"Limiting Slots..."
+		"jp"		"スロット制限中..."
+	}
+}

@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"{red}[{default}NoTankRush{red}]"
+		"jp"		"{red}[{default}タンクラッシュ禁止{red}]"
+	}
+	"freeze"
+	{
+		"en"		"{red}Tank {default}has spawned. {olive}Freezing {default}distance points!"
+		"jp"		"{red}タンク {default}がスポーンしました。{olive}距離ポイントを凍結中{default}！"
+	}
+	"unfreeze"
+	{
+		"en"		"{red}Tank {default}is dead. {olive}Unfreezing {default}distance points!"
+		"jp"		"{red}タンク {default}が死亡しました。{olive}距離ポイントを解除中{default}！"
+	}
+	"saferoom"
+	{
+		"en"		"{red}Survivors {default}made it to the saferoom. {olive}Unfreezing {default}distance points!"
+		"jp"		"{red}サバイバー {default}がセーフルームに到達しました。{olive}距離ポイントを解除中{default}！"
+	}
+}

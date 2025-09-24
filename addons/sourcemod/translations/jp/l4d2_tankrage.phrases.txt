@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"{red}[{default}Tank Rage{red}]{default}"
+		"jp"		"{red}[{default}タンクラージ{red}]{default}"
+	}
+	"SurvivorsRunBack"
+	{
+		"en"		"For every {olive}%i{green}%% {default}Survivors run back, the Tank will have their frustration frozen for {olive}%0.1f {green}seconds{default}."
+		"jp"		"サバイバーが {olive}%i{green}%% {default}戻るごとに、タンクのフラストレーションが {olive}%0.1f {green}秒間{default} 凍結されます。"
+	}
+}

@@ -1,0 +1,40 @@
+"Phrases"
+{
+	"on"
+	{
+		"en"		"{blue}on{default}"
+		"jp"		"{blue}オン{default}"
+	}
+	
+	"off"
+	{
+		"en"		"{red}off{default}"
+		"jp"		"{red}オフ{default}"
+	}
+	
+	"Notify_SpechudState"
+	{
+		"#format"	"{1:t}"
+		"en"		"<{olive}HUD{default}> Spectator HUD is now {1}"
+		"jp"		"<{olive}HUD{default}> 観戦者HUDは {1} になりました"
+	}
+	
+	"Notify_TankhudState"
+	{
+		"#format"	"{1:t}"
+		"en"		"<{olive}HUD{default}> Tank HUD is now {1}"
+		"jp"		"<{olive}HUD{default}> タンクHUDは {1} になりました"
+	}
+	
+	"Notify_SpechudUsage"
+	{
+		"en"		"<{olive}HUD{default}> Type {green}!spechud{default} into chat to toggle the {blue}Spectator HUD"
+		"jp"		"<{olive}HUD{default}> {blue}観戦者HUD{default} の切り替えには {green}!spechud{default} をチャットに入力してください"
+	}
+	
+	"Notify_TankhudUsage"
+	{
+		"en"		"<{olive}HUD{default}> Type {green}!tankhud{default} into chat to toggle the {red}Tank HUD"
+		"jp"		"<{olive}HUD{default}> {red}タンクHUD{default} の切り替えには {green}!tankhud{default} をチャットに入力してください"
+	}
+}

@@ -1,0 +1,175 @@
+"Phrases"
+{
+    "Tag"
+    {
+        "en"        "{blue}<{green}BossVote{blue}>{default}"
+        "jp"        "{blue}<{green}ボス投票{blue}>{default}"
+    }
+    // RunVoteChecks
+    "NotAvailable"
+    {
+        "en"        "Boss voting is not available on this map."
+        "jp"        "このマップではボス投票は利用できません。"
+    }
+    "Available"
+    {
+        "en"        "Boss voting is only available during ready up."
+        "jp"        "ボス投票はレディアップ中のみ利用可能です。"
+    }
+    "FirstRound"
+    {
+        "en"        "Boss voting is only available during the first round of a map."
+        "jp"        "ボス投票はマップの最初のラウンド中のみ利用可能です。"
+    }
+    "NotAvailableForSpec"
+    {
+        "en"        "Boss voting is not available for spectators."
+        "jp"        "観戦者のボス投票は利用できません。"
+    }
+    "CannotBeCalled"
+    {
+        "en"        "Boss Vote cannot be called right now..."
+        "jp"        "現在ボス投票を呼び出せません..."
+    }
+    // VoteBossCmd
+    "Usage"
+    {
+        "en"        "Usage: !voteboss {olive}<{default}tank{olive}> <{default}witch{olive}>{default}."
+        "jp"        "使用方法: !voteboss {olive}<{default}タンク{olive}> <{default}ウィッチ{olive}>{default}。"
+    }
+    "Usage2"
+    {
+        "en"        "Use {default}\"{blue}0{default}\" for {olive}No Spawn{default}, \"{blue}-1{default}\" for {olive}Ignorance."
+        "jp"        "{olive}スポーンなし{default} には {default}\"{blue}0{default}\"、{olive}無視{default} には \"{blue}-1{default}\" を使用してください。"
+    }
+    "Invalid"
+    {
+        "en"        "Percentages are {olive}invalid{default}."
+        "jp"        "パーセンテージが {olive}無効{default} です。"
+    }
+    "TankStatic"
+    {
+        "en"        "Tank spawn is static and can not be changed on this map."
+        "jp"        "このマップではタンクスポーンは固定されており、変更できません。"
+    }
+    "WitchStatic"
+    {
+        "en"        "Witch spawn is static and can not be changed on this map."
+        "jp"        "このマップではウィッチスポーンは固定されており、変更できません。"
+    }
+    "TankBanned"
+    {
+        "en"        "Tank percentage is {blue}banned{default}."
+        "jp"        "タンクパーセンテージは {blue}禁止{default} されています。"
+    }
+    "WitchBanned"
+    {
+        "en"        "Witch percentage is {blue}banned{default}."
+        "jp"        "ウィッチパーセンテージは {blue}禁止{default} されています。"
+    }
+    "SetBosses"
+    {
+        "en"        "Set Tank to: %s and Witch to: %s?"
+        "jp"        "タンクを: %s、ウィッチを: %s に設定しますか？"
+    }
+    "SetTank"
+    {
+        "en"        "Set Tank to: %s and Witch to: Disabled?"
+        "jp"        "タンクを: %s、ウィッチを: 無効 に設定しますか？"
+    }
+    "SetOnlyTank"
+    {
+        "en"        "Set Tank to: %s?"
+        "jp"        "タンクを: %s に設定しますか？"
+    }
+    "SetWitch"
+    {
+        "en"        "Set Tank to: Disabled and Witch to: %s?"
+        "jp"        "タンクを: 無効、ウィッチを: %s に設定しますか？"
+    }
+    "SetOnlyWitch"
+    {
+        "en"        "Set Witch to: %s?"
+        "jp"        "ウィッチを: %s に設定しますか？"
+    }
+    "SetBossesDisabled"
+    {
+        "en"        "Set Bosses to: Disabled?"
+        "jp"        "ボスを: 無効 に設定しますか？"
+    }
+    "SetTankDisabled"
+    {
+        "en"        "Set Tank to: Disabled?"
+        "jp"        "タンクを: 無効 に設定しますか？"
+    }
+    "SetWitchDisabled"
+    {
+        "en"        "Set Witch to: Disabled?"
+        "jp"        "ウィッチを: 無効 に設定しますか？"
+    }
+    // BossVoteResultHandler
+    "OnlyReadyUp"
+    {
+        "en"        "Spawns can only be set during ready up."
+        "jp"        "スポーンはレディアップ中のみ設定可能です。"
+    }
+    "SettingBoss"
+    {
+        "en"        "Setting Boss Spawns..."
+        "jp"        "ボススポーン設定中..."
+    }
+    "SettingTank"
+    {
+        "en"        "Setting Tank Spawn..."
+        "jp"        "タンクスポーン設定中..."
+    }
+    "SettingWitch"
+    {
+        "en"        "Setting Witch Spawn..."
+        "jp"        "ウィッチスポーン設定中..."
+    }
+    "SettingBossDisabled"
+    {
+        "en"        "Setting Boss Disabled..."
+        "jp"        "ボス無効設定中..."
+    }
+    // ForceTankCommand
+    "CommandNotAvailable"
+    {
+        "en"        "Command not available on this map."
+        "jp"        "このマップではコマンドは利用できません。"
+    }
+    "TankSpawnStatic"
+    {
+        "en"        "Tank spawn is static and can not be changed on this map."
+        "jp"        "このマップではタンクスポーンは固定されており、変更できません。"
+    }
+    "PercentageInvalid"
+    {
+        "en"        "Percentage is {blue}invalid{default}."
+        "jp"        "パーセンテージが {blue}無効{default} です。"
+    }
+    "Percentagebanned"
+    {
+        "en"        "Percentage is {blue}banned{default}."
+        "jp"        "パーセンテージが {blue}禁止{default} されています。"
+    }
+    "TankSpawnAdmin"
+    {
+		"#format"   "{1:i},{2:s}" // 1:p_iRequestedPercent 2:clientName
+        "en"        "Tank spawn set to {olive}{1}%{default} by Admin {blue}{2}{default}."
+        "jp"        "管理者 {blue}{2}{default} によりタンクスポーンが {olive}{1}%{default} に設定されました。"
+    }
+    // ForceWitchCommand
+    "WitchSpawnStatic"
+    {
+        "en"        "Witch spawn is static and can not be changed on this map."
+        "jp"        "このマップではウィッチスポーンは固定されており、変更できません。"
+    }
+    "WitchSpawnAdmin"
+    {
+		"#format"   "{1:i},{2:s}" // 1:p_iRequestedPercent 2:clientName
+        "en"        "Witch spawn set to {olive}{1}%{default} by Admin {blue}{2}{default}."
+        "jp"        "管理者 {blue}{2}{default} によりウィッチスポーンが {olive}{1}%{default} に設定されました。"
+    }
+}

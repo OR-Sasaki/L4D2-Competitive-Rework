@@ -1,0 +1,344 @@
+"Phrases"
+{
+	"Tag+"
+	{
+		"en"	"{green}★{default}"
+		"jp"	"{green}★{default}"
+	}
+	"Tag++"
+	{
+		"en"	"{green}★★{default}"
+		"jp"	"{green}★★{default}"
+	}
+	"Tag+++"
+	{
+		"en"	"{green}★★★{default}"
+		"jp"	"{green}★★★{default}"
+	}
+	"Tag++++"
+	{
+		"en"	"{green}★★★★{default}"
+		"jp"	"{green}★★★★{default}"
+	}
+	// boomer pop
+	"Popped"
+	{
+        "#format"   "{1:N},{2:N}" // 1:attacker 2:victim
+		"en"		"{olive}{1}{default} popped {olive}{2}{default}."
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} をポップしました。"
+	}
+	"PoppedBot"
+	{
+		"en"		"{olive}%N{default} popped a boomer."
+		"jp"		"{olive}%N{default} がブーマーをポップしました。"
+	}
+    // charger level
+	"Leveled"
+	{
+        "#format"   "{1:N},{2:N}" // 1:attacker, 2:victim
+		"en"		"{olive}{1}{default} {blue}fully{default} leveled {olive}{2}{default}"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {blue}完全に{default} レベルしました"
+	}
+	"LeveledBot"
+	{
+		"en"		"{olive}%N{default} {blue}fully{default} leveled {olive}a charger{default}"
+		"jp"		"{olive}%N{default} が {olive}チャージャー{default} を {blue}完全に{default} レベルしました"
+	}
+    // charger level hurt
+	"LeveledHurt"
+	{
+        "#format"   "{1:N},{2:N},{3:i}" // 1:attacker 2:victim 3:damage
+		"en"		"{olive}{1}{default} {blue}chip-leveled{default} {olive}{2}{default} ({blue}{3} dmg{default})"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {blue}チップレベル{default} しました ({blue}{3} ダメージ{default})"
+	}
+	"LeveledHurtBot"
+	{
+        "#format"   "{1:N},{2:i}" // 1:attacker 2:damage
+		"en"		"{olive}{1}{default} {blue}chip-leveled{default} a charger ({blue}{2} dmg{default})"
+		"jp"		"{olive}{1}{default} がチャージャーを {blue}チップレベル{default} しました ({blue}{2} ダメージ{default})"
+	}
+    // deadstops
+	"Deadstopped"
+	{
+        "#format"   "{1:N},{2:N}" // 1:attacker 2:victim
+		"en"		"{olive}{1}{default} {blue}deadstopped{default} {olive}{2}{default}"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {blue}デッドストップ{default} しました"
+	}
+	"DeadstoppedBot"
+	{
+		"en"		"{olive}%N{default} {blue}deadstopped{default} {olive}a hunter{default}"
+		"jp"		"{olive}%N{default} が {olive}ハンター{default} を {blue}デッドストップ{default} しました"
+	}
+	// shove
+	"Shoved"
+	{
+        "#format"   "{1:N},{2:N}" // 1:attacker 2:victim
+		"en"		"{olive}{1}{default} {blue}shoved{default} {olive}{2}{default}."
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {blue}押し倒しました{default}。"
+	}
+	"ShovedBot"
+	{
+		"en"		"{olive}%N{default} {blue}shoved{default} an {olive}SI{default}."
+		"jp"		"{olive}%N{default} が {olive}特殊感染{default} を {blue}押し倒しました{default}。"
+	}
+    // real skeet
+	"TeamSkeeted"
+	{
+		"en"		"{olive}%N{default} was {blue}team-skeeted{default}."
+		"jp"		"{olive}%N{default} は {blue}チームスキート{default} されました。"
+	}
+	"TeamSkeetedBot"
+	{
+		"en"		"A {olive}hunter{default} was {blue}team-skeeted{default}."
+		"jp"		"{olive}ハンター{default} は {blue}チームスキート{default} されました。"
+	}
+	"Skeeted"
+	{
+        "#format"   "{1:N},{2:s},{3:N}" // 1:attacker 2:(bMelee) ? "melee-": ((bSniper) ? "headshot-" : ((bGL) ? "grenade-" : "") ) 3:victim
+		"en"		"{olive}{1}{default} {blue}{2}skeeted{default} {olive}{3}{default}."
+		"jp"		"{olive}{1}{default} が {olive}{3}{default} を {blue}{2}スキート{default} しました。"
+	}
+	"SkeetedBot"
+	{
+        "#format"   "{1:N},{2:s}" // 1:attacker 2:(bMelee) ? "melee-": ((bSniper) ? "headshot-" : ((bGL) ? "grenade-" : "") )
+		"en"		"{olive}{1}{default} {blue}{2}skeeted{default} a {olive}hunter{default}."
+		"jp"		"{olive}{1}{default} が {olive}ハンター{default} を {blue}{2}スキート{default} しました。"
+	}
+	"Melee"
+	{
+		"en"		"melee-"
+		"jp"		"近接-"
+	}
+	"HeadShot"
+	{
+		"en"		"headshot-"
+		"jp"		"ヘッドショット-"
+	}
+	"Grenade"
+	{
+		"en"		"grenade-"
+		"jp"		"グレネード-"
+	}
+    // hurt skeet / non-skeet
+	"HurtSkeet"
+	{
+        "#format"   "{1:N},{2:i},{3:s}" // 1:victim 2:damage 3:(bOverKill) ? buffer : ""
+		"en"		"{olive}{1}{default} was {green}not{default} skeeted ({blue}{2}{default} damage).{3}"
+		"jp"		"{olive}{1}{default} は {green}スキートされませんでした{default} ({blue}{2}{default} ダメージ)。{3}"
+	}
+	"HurtSkeetBot"
+	{
+        "#format"   "{1:i},{2:s}" // 1:damage 2:(bOverKill) ? buffer : ""
+		"en"		"{olive}Hunter{default} was {green}not{default} skeeted ({blue}{1}{default} damage).{2}"
+		"jp"		"{olive}ハンター{default} は {green}スキートされませんでした{default} ({blue}{1}{default} ダメージ)。{2}"
+	}
+	"Unchipped"
+	{
+		"en"		"(Would've skeeted if hunter were unchipped!)"
+		"jp"		"(ハンターが無傷だったらスキートできていた！)"
+	}
+    // crown
+	"CrownedWitch"
+	{
+        "#format"   "{1:N},{2:i}" // 1:attacker 2:damage
+		"en"		"{olive}{1}{default} crowned a witch ({blue}{2}{default} damage)."
+		"jp"		"{olive}{1}{default} がウィッチをクラウンしました ({blue}{2}{default} ダメージ)。"
+	}
+	"CrownedWitch2"
+	{
+		"en"		"A witch was {blue}crowned{default}."
+		"jp"		"ウィッチが {blue}クラウン{default} されました。"
+	}
+    // drawcrown
+	"DrawCrowned"
+	{
+        "#format"   "{1:N},{2:i},{3:i}" // 1:attacker 2:damage 3:chipdamage
+		"en"		"{olive}{1}{default} draw-crowned a witch ({blue}{2}{default} damage, {olive}{3}{default} chip)."
+		"jp"		"{olive}{1}{default} がウィッチをドロークラウンしました ({blue}{2}{default} ダメージ、{olive}{3}{default} チップ)。"
+	}
+	"DrawCrowned2"
+	{
+        "#format"   "{1:i},{2:i}" // 1:damage 2:chipdamage
+		"en"		"A witch was draw-crowned ({blue}{1}{default} damage, {olive}{2}{default} chip)."
+		"jp"		"ウィッチがドロークラウンされました ({blue}{1}{default} ダメージ、{olive}{2}{default} チップ)。"
+	}
+    // smoker clears
+	"CutTongue"
+	{
+        "#format"   "{1:N},{2:N}" // 1:attacker 2:victim
+		"en"		"{olive}{1}{default} {blue}cut{default} {olive}{2}{default}'s tongue"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} の舌を {blue}切断{default} しました"
+	}
+	"CutTongueBot"
+	{
+		"en"		"{olive}%N{default} {blue}cut{default} smoker tongue"
+		"jp"		"{olive}%N{default} がスモーカーの舌を {blue}切断{default} しました"
+	}
+	"SelfClearedTongue"
+	{
+        "#format"   "{1:N},{2:N},{3:s}" // 1:attacker 2:victim 3:(withShove) ? Buffer : ""
+		"en"		"{olive}{1}{default} {blue}self-cleared{default} from {olive}{2}{default}'s tongue {blue}{3}{default}"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} の舌から {blue}セルフクリア{default} しました {blue}{3}{default}"
+	}
+	"SelfClearedTongueBot"
+	{
+        "#format"   "{1:N},{2:s}" // 1:attacker 2:(withShove) ? Buffer : ""
+		"en"		"{olive}{1}{default} {blue}self-cleared{default} from a smoker tongue {blue}{2}{default}"
+		"jp"		"{olive}{1}{default} がスモーカーの舌から {blue}セルフクリア{default} しました {blue}{2}{default}"
+	}
+	"Shoving"
+	{
+		"en"		"by shoving"
+		"jp"		"押し倒しによって"
+	}
+    // rocks
+	"SkeetedRock"
+	{
+        "#format"   "{1:N},{2:N}" // 1:attacker 2:victim
+		"en"		"{olive}{1}{default} {blue}skeeted{default} {olive}{2}{default} 's rock."
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} の岩を {blue}スキート{default} しました。"
+	}
+	"SkeetedRockBot"
+	{
+		"en"		"{olive}%N{default} {blue}skeeted{default} a tank rock"
+		"jp"		"{olive}%N{default} がタンクの岩を {blue}スキート{default} しました"
+	}
+    // highpounces
+	"HunterHP"
+	{
+        "#format"   "{1:N},{2:N},{3:i},{4:i}" // 1:attacker 2:victim 3:RoundFloat(calculatedDamage) 4:RoundFloat(height)
+		"en"		"{olive}{1}{default} {red}high-pounced{default} {olive}{2}{default} ({red}{3}{default} dmg, height: {red}{4}{default})"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {red}ハイポンス{default} しました ({red}{3}{default} ダメージ、高さ: {red}{4}{default})"
+	}
+	"HunterHPBot"
+	{
+        "#format"   "{1:N},{2:i},{3:i}" // 1:victim 2:RoundFloat(calculatedDamage) 3:RoundFloat(height)
+		"en"		"A {olive}hunter{default} {red}high-pounced{default} {olive}{1}{default} ({red}{2}{default} dmg, height: {red}{3}{default})"
+		"jp"		"{olive}ハンター{default} が {olive}{1}{default} を {red}ハイポンス{default} しました ({red}{2}{default} ダメージ、高さ: {red}{3}{default})"
+	}
+	"JockeyHP"
+	{
+        "#format"   "{1:N},{2:N},{3:i}" // 1:attacker 2:victim 3:RoundFloat(height)
+		"en"		"{olive}{1}{default} {red}high-pounced{default} {olive}{2}{default} ({red}height{default}: {red}{3}{default})"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {red}ハイポンス{default} しました ({red}高さ{default}: {red}{3}{default})"
+	}
+	"JockeyHPBot"
+	{
+        "#format"   "{1:N},{2:i}" // 1:victim 2:RoundFloat(height)
+		"en"		"A {olive}jockey{default} {red}high-pounced{default} {olive}{1}{default} ({red}height{default}: {red}{2}{default})"
+		"jp"		"{olive}ジョッキー{default} が {olive}{1}{default} を {red}ハイポンス{default} しました ({red}高さ{default}: {red}{2}{default})"
+	}
+    // deathcharges
+	"DeathCharged"
+	{
+        "#format"   "{1:N},{2:N},{3:s},{4:i}" // 1:attacker 2:victim 3:(bCarried) ? "" : Buffer 4:RoundFloat(height)
+		"en"		"{olive}{1}{default} {red}death-charged{default} {olive}{2}{default} {3}({red}height{default}: {red}{4}{default})"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {red}デスチャージ{default} しました {3}({red}高さ{default}: {red}{4}{default})"
+	}
+	"DeathChargedBot"
+	{
+        "#format"   "{1:N},{2:s},{3:i}" // 1:victim 2:(bCarried) ? "" : Buffer 3:RoundFloat(height)
+		"en"		"A {olive}charger{default} {red}death-charged{default} {olive}{1}{default} {2}({red}height{default}: {red}{3}{default})"
+		"jp"		"{olive}チャージャー{default} が {olive}{1}{default} を {red}デスチャージ{default} しました {2}({red}高さ{default}: {red}{3}{default})"
+	}
+	"Bowling"
+	{
+		"en"		"by bowling"
+		"jp"		"ボウリングによって"
+	}
+    // SI clears    (cleartimeA = pummel/pounce/ride/choke, cleartimeB = tongue drag, charger carry)
+	"SIClear"
+	{
+        "#format"   "{1:N},{2:N},{3:N},{4:s},{5:.2f}" // 1:attacker 2:pinVictim 3:victim 4:g_csSIClassName[zombieClass] 5:fClearTime
+		"en"		"{olive}{1}{default} {blue}insta-cleared{default} {olive}{2}{default} from {olive}{3}{default}'s {4} ({blue}{5} {default}seconds)"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {olive}{3}{default} の {4} から {blue}インスタクリア{default} しました ({blue}{5}{default} 秒)"
+	}
+	"SIClearTeammate"
+	{
+        "#format"   "{1:N},{2:N},{3:s},{4:.2f}" // 1:attacker 2:victim 3:g_csSIClassName[zombieClass] 4:fClearTime
+		"en"		"{olive}{1}{default} {blue}insta-cleared{default} {olive}a teammate{default} from {olive}{2}{default}'s {3} ({blue}{4} {default}seconds)"
+		"jp"		"{olive}{1}{default} が {olive}チームメイト{default} を {olive}{2}{default} の {3} から {blue}インスタクリア{default} しました ({blue}{4}{default} 秒)"
+	}
+	"SIClearBot"
+	{
+        "#format"   "{1:N},{2:N},{3:s},{4:.2f}" // 1:attacker 2:pinVictim 3:g_csSIClassName[zombieClass] 4:fClearTime
+		"en"		"{olive}{1}{default} {blue}insta-cleared{default} {olive}{2}{default} from a {3} ({blue}{4} {default}seconds)"
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} を {3} から {blue}インスタクリア{default} しました ({blue}{4}{default} 秒)"
+	}
+	"SIClearTeammateBot"
+	{
+        "#format"   "{1:N},{2:s},{3:.2f}" // 1:attacker 2:g_csSIClassName[zombieClass] 3:fClearTime)
+		"en"		"{olive}{1}{default} {blue}insta-cleared{default} {olive}a teammate{default} from a {2} ({blue}{3} {default}seconds)"
+		"jp"		"{olive}{1}{default} が {olive}チームメイト{default} を {2} から {blue}インスタクリア{default} しました ({blue}{3}{default} 秒)"
+	}
+    // bhaps
+	"BunnyHop"
+	{ 
+        "#format"   "{1:i},{2:s},{3:.1f}" // 1:streak 2:(streak > 1) ? "s" : "" 3:maxVelocity
+		"en"		"{olive}You{default} got {blue}{1} bunnyhop{2}{default} in a row ({blue}top speed{default}: {olive}{3}{default})"
+		"jp"		"{olive}あなた{default} は連続で {blue}{1} 回のバニーホップ{2}{default} を記録しました ({blue}最高速度{default}: {olive}{3}{default})"
+	}
+	"PluralCount"
+	{
+		"en"		"s"
+		"jp"		"回"
+	}
+    // car alarms
+	"CalarmHit"
+	{
+		"en"		"{olive}%N{default} triggered an alarm with a hit."
+		"jp"		"{olive}%N{default} が攻撃でアラームを発動させました。"
+	}
+	"CalarmTouched"
+	{
+        "#format"   "{1:N},{2:N}" // 1:infected 2:survivor
+		"en"		"{olive}{1}{default} made {olive}{2}{default} trigger an alarm."
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} にアラームを発動させました。"
+	}
+	"CalarmTouchedHunter"
+	{
+		"en"		"A {olive}hunter{default} made {olive}%N{default} trigger an alarm."
+		"jp"		"{olive}ハンター{default} が {olive}%N{default} にアラームを発動させました。"
+	}
+	"CalarmTouchedJockey"
+	{	
+		"en"		"A {olive}jockey{default} made {olive}%N{default} trigger an alarm."
+		"jp"		"{olive}ジョッキー{default} が {olive}%N{default} にアラームを発動させました。"
+	}
+	"CalarmTouchedCharger"
+	{
+		"en"		"A {olive}charger{default} made {olive}%N{default} trigger an alarm."
+		"jp"		"{olive}チャージャー{default} が {olive}%N{default} にアラームを発動させました。"
+	}
+	"CalarmTouchedInfected"
+	{
+		"en"		"A {olive}bot infected{default} made {olive}%N{default} trigger an alarm."
+		"jp"		"{olive}ボット感染{default} が {olive}%N{default} にアラームを発動させました。"
+	}
+	"CalarmTouchedBot"
+	{
+		"en"		"{olive}%N{default} touched an alarmed car."
+		"jp"		"{olive}%N{default} がアラーム車に触れました。"
+	}
+	"CalarmExplosion"
+	{
+		"en"		"{olive}%N{default} triggered an alarm with an explosion."
+		"jp"		"{olive}%N{default} が爆発でアラームを発動させました。"
+	}
+	"CalarmBoomer"
+	{
+        "#format"   "{1:N},{2:N}" // 1:infected 2:survivor
+		"en"		"{olive}{1}{default} triggered an alarm by killing a boomer {olive}{2}{default}."
+		"jp"		"{olive}{1}{default} が {olive}{2}{default} のブーマーを殺してアラームを発動させました。"
+	}
+	"CalarmBoomerBot"
+	{
+		"en"		"{olive}%N{default} triggered an alarm by shooting a {olive}boomer{default}."
+		"jp"		"{olive}%N{default} が {olive}ブーマー{default} を撃ってアラームを発動させました。"
+	}
+	"Calarm"
+	{
+		"en"		"{olive}%N{default} triggered an alarm."
+		"jp"		"{olive}%N{default} がアラームを発動させました。"
+	}
+}

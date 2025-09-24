@@ -1,0 +1,33 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"<{olive}Horde{default}>"
+		"jp"		"<{olive}ホード{default}>"
+	}
+	"TankPlay"
+	{
+		"en"		"Horde has {blue}paused{default} due to tank in play! Progressing by {blue}%0.1f%%{default} will start the horde."
+		"jp"		"タンクがプレイ中のためホードが {blue}一時停止{default} されました！{blue}%0.1f%%{default} 進むとホードが開始されます。"
+	}
+	"UntilHordeStarts"
+	{
+		"en"		"{blue}%0.1f%%{default} left until horde starts..."
+		"jp"		"ホード開始まで {blue}%0.1f%%{default} 残り..."
+	}
+	"HordeResumed"
+	{
+		"en"		"Horde has {blue}resumed{default} at {green}%i%% strength{default}, pushing will increase the horde."
+		"jp"		"ホードが {green}%i%% 強度{default} で {blue}再開{default} されました、プッシュするとホードが増加します。"
+	}
+	"HordeStrength"
+	{
+		"en"		"Horde is at {green}%i%% strength{default}..."
+		"jp"		"ホードは {green}%i%% 強度{default} です..."
+	}
+	"HordeVeryStrength"
+	{
+		"en"		"{red}Survivors have pushed too far{default}, horde is at {green}100%% strength{default}!"
+		"jp"		"{red}サバイバーが押しすぎました{default}、ホードは {green}100%% 強度{default} です！"
+	}
+}

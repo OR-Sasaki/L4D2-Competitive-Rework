@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"{default}[{olive}Weapon Limits{default}]"
+		"jp"		"{default}[{olive}武器制限{default}]"
+	}
+	"Full"
+	{
+		"en"		"This weapon group has reached its max of {green}%d{default}!"
+		"jp"		"この武器グループは最大値の {green}%d{default} に達しました！"
+	}
+}

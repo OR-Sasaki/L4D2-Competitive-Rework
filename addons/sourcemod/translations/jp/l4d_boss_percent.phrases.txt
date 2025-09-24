@@ -1,0 +1,68 @@
+"Phrases"
+{
+	"TagTank"
+	{
+		"en"	"<{olive}Tank{default}>"
+		"jp"	"<{olive}タンク{default}>"
+	}
+	"TagWitch"
+	{
+		"en"	"<{olive}Witch{default}>"
+		"jp"	"<{olive}ウィッチ{default}>"
+	}
+	"TankOn"
+	{
+		"en"	"Tank: %d%%"
+		"jp"	"タンク: %d%%"
+	}
+	"WitchOn"
+	{
+		"en"	"Witch: %d%%"
+		"jp"	"ウィッチ: %d%%"
+	}
+	"Disabled"
+	{
+		"en"	"Disabled"
+		"jp"	"無効"
+	}
+	"StaticSpawn"
+	{
+		"en"	"Static Spawn"
+		"jp"	"固定スポーン"
+	}
+	"None"
+	{
+		"en"	"None"
+		"jp"	"なし"
+	}
+	"TankDisabled"
+	{
+		"en"	"Tank: Disabled"
+		"jp"	"タンク: 無効"
+	}
+	"TankStatic"
+	{
+		"en"	"Tank: Static Spawn"
+		"jp"	"タンク: 固定スポーン"
+	}
+	"TankNone"
+	{
+		"en"	"Tank: None"
+		"jp"	"タンク: なし"
+	}
+	"WitchDisabled"
+	{
+		"en"	"Witch: Disabled"
+		"jp"	"ウィッチ: 無効"
+	}
+	"WitchStatic"
+	{
+		"en"	"Witch: Static Spawn"
+		"jp"	"ウィッチ: 固定スポーン"
+	}
+	"WitchNone"
+	{
+		"en"	"Witch: None"
+		"jp"	"ウィッチ: なし"
+	}
+}

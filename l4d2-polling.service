@@ -4,8 +4,11 @@ After=network.target
 
 [Service]
 Type=simple
-Environment="IP=$(hostname -i)"
-ExecStart=/home/ubuntu/myenv/bin/python3 /home/ubuntu/l4d2-poling/main.py --s3-bucket "l4d2-static-website" --s3-key "data/data.json" --ip "${IP}" --port 27015 27016
+ExecStart=/bin/sh -c '/home/ubuntu/myenv/bin/python3 /home/ubuntu/l4d2-poling/main.py \
+  --s3-bucket "l4d2-static-website" \
+  --s3-key "data/data.json" \
+  --ip $(hostname -i) \
+  --port 27015 27016'
 Restart=always
 
 [Install]

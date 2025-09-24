@@ -1,0 +1,36 @@
+[Unit]
+Description=Left 4 Dead 2 Dedicated Server (%i)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/Steam/steamapps/common/l4d2
+Environment="IP=$(hostname -i)"
+EnvironmentFile=-/etc/default/srcds-%i
+
+ExecStart=/home/ubuntu/Steam/steamapps/common/l4d2/srcds_run \
+  -game left4dead2 \
+  -ip ${IP} -port ${PORT} \
+  +sv_clockcorrection_msecs 25 \
+  -timeout 10 \
+  -tickrate 100 \
+  +map "c1m1_hotel versus" \
+  -maxplayers 14 \
+  +servercfgfile %i.cfg
+
+# 異常終了時のみ再起動
+Restart=on-failure
+RestartSec=3
+
+# 強制終了までの猶予
+TimeoutStopSec=30
+SendSIGKILL=yes
+
+# ★ログを完全に捨てる
+StandardOutput=null
+StandardError=null
+[Install]
+WantedBy=multi-user.target

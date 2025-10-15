@@ -65,7 +65,7 @@
 	"Test Message"
 	{
 		"#format"		"{1:N}"
-		"en"			"{orange}{1} {lightgreen} send test message"
-		"jp"			"{orange}{1} {lightgreen}がテストメッセージを送信しています"
+		"en"			"{lightgreen} send test message"
+		"jp"			"{lightgreen}テストメッセージを送信しています"
 	}
 }

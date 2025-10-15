@@ -61,4 +61,11 @@
 		"zho"			"{orange}{1} {lightgreen}已標記一個位置於地圖上"
 		"jp"			"{orange}{1} {lightgreen}がマップ上に位置をマークしました"
 	}
+
+	"Test Message"
+	{
+		"#format"		"{1:N}"
+		"en"			"{orange}{1} {lightgreen} send test message"
+		"jp"			"{orange}{1} {lightgreen}がテストメッセージを送信しています"
+	}
 }

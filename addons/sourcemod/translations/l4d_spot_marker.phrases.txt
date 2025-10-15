@@ -64,7 +64,6 @@
 
 	"Test Message"
 	{
-		"#format"		"{1:N}"
 		"en"			"{lightgreen} send test message"
 		"jp"			"{lightgreen}テストメッセージを送信しています"
 	}
